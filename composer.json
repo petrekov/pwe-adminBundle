@@ -1,0 +1,10 @@
+{
+    "name": "petr.cizek/admin",
+    "authors": [
+        {
+            "name": "Petr Čížek",
+            "email": "petr.cizek@datapartner.cz"
+        }
+    ],
+    "require": {}
+}
