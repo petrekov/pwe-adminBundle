@@ -1,8 +1,13 @@
 {
-    "name": "petr.cizek/admin",
+    "name": "admin/adminbundle",
     "type": "symfony-bundle",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "license": "MIT",
+    "description": "Symfony Datatable Bundle For Doctrine2 Entities",
+    "keywords": ["symfony3", "datatable", "datatables", "data-table", "grid", "table", "datagrid", "pagination"],
+    "homepage": "https://github.com/stwe/DatatablesBundle",
+    "support": {
+        "issues": "https://github.com/stwe/DatatablesBundle/issues"
+    },
     "authors": [
         {
             "name": "Petr Čížek",
@@ -14,20 +19,15 @@
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/doctrine-migrations-bundle": "^1.3",
         "doctrine/orm": "^2.5",
-        "emarref/jwt": "^1.0",
         "friendsofsymfony/jsrouting-bundle": "1.6",
         "incenteev/composer-parameter-handler": "^2.0",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^3.0.2",
-        "sg/datatablesbundle": "^1.0",
         "symfony/monolog-bundle": "^3.1.0",
         "symfony/polyfill-apcu": "^1.0",
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.3.*",
         "twig/twig": "^1.0||^2.0"
-    },
-    "require-dev": {
-        "symfony/expression-language": "~2.4|3.*"
     },
     "autoload": {
         "psr-4": { "Admin\\AdminBundle\\": "" }

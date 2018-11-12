@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd34de6c6512abca1ce64b3cefd2a0fb",
+    "content-hash": "b05bd3b2699f295453930b4778359407",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1230,48 +1230,6 @@
             "time": "2018-06-14T14:45:07+00:00"
         },
         {
-            "name": "emarref/jwt",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/emarref/jwt.git",
-                "reference": "79f563750ff90dabd4fa677c4b4e5ec9ed52d9b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/emarref/jwt/zipball/79f563750ff90dabd4fa677c4b4e5ec9ed52d9b4",
-                "reference": "79f563750ff90dabd4fa677c4b4e5ec9ed52d9b4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*"
-            },
-            "suggest": {
-                "ext-openssl": "Enables more token encryption options"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Emarref\\Jwt\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Malcolm Fell",
-                    "email": "emarref@gmail.com"
-                }
-            ],
-            "description": "A JWT implementation",
-            "time": "2016-09-05T20:33:06+00:00"
-        },
-        {
             "name": "fig/link-util",
             "version": "1.0.0",
             "source": {
@@ -2131,61 +2089,6 @@
             ],
             "description": "A security checker for your composer.lock",
             "time": "2018-10-16T10:30:44+00:00"
-        },
-        {
-            "name": "sg/datatablesbundle",
-            "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stwe/DatatablesBundle.git",
-                "reference": "361bc60e7e181b3a79f017cf9156b9ceab117c64"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stwe/DatatablesBundle/zipball/361bc60e7e181b3a79f017cf9156b9ceab117c64",
-                "reference": "361bc60e7e181b3a79f017cf9156b9ceab117c64",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/orm": "^2.5",
-                "friendsofsymfony/jsrouting-bundle": "^1.6|^2.0",
-                "php": ">=5.5.9",
-                "symfony/framework-bundle": "^3.0|^4.0",
-                "symfony/options-resolver": "^3.0|^4.0",
-                "symfony/property-access": "^3.0|^4.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "Sg\\DatatablesBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "stwe"
-                },
-                {
-                    "name": "SgDatatablesBundle contributors",
-                    "homepage": "https://github.com/stwe/DatatablesBundle/graphs/contributors"
-                }
-            ],
-            "description": "Symfony Datatable Bundle For Doctrine2 Entities",
-            "homepage": "https://github.com/stwe/DatatablesBundle",
-            "keywords": [
-                "data-table",
-                "datagrid",
-                "datatable",
-                "datatables",
-                "grid",
-                "pagination",
-                "symfony3",
-                "table"
-            ],
-            "time": "2018-03-02T13:04:54+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
