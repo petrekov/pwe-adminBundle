@@ -1,6 +1,7 @@
 {
     "name": "petr.cizek/admin",
-    "type" : "symfony-bundle",
+    "type" : "git",
+    "version" : "v1.0.0",
     "authors": [
         {
             "name": "Petr Čížek",
