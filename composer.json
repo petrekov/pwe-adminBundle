@@ -1,7 +1,8 @@
 {
     "name": "petr.cizek/admin",
-    "type" : "git",
-    "version" : "v1.0.0",
+    "type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Petr Čížek",
@@ -24,6 +25,9 @@
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.3.*",
         "twig/twig": "^1.0||^2.0"
+    },
+    "require-dev": {
+        "symfony/expression-language": "~2.4|3.*"
     },
     "autoload": {
         "psr-4": { "Admin\\AdminBundle\\": "" }
