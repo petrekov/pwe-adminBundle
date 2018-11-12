@@ -1,13 +1,6 @@
 {
     "name": "admin-pwe/adminbundle",
     "type": "symfony-bundle",
-    "license": "MIT",
-    "description": "Symfony Datatable Bundle For Doctrine2 Entities",
-    "keywords": ["symfony3", "datatable", "datatables", "data-table", "grid", "table", "datagrid", "pagination"],
-    "homepage": "https://github.com/stwe/DatatablesBundle",
-    "support": {
-        "issues": "https://github.com/stwe/DatatablesBundle/issues"
-    },
     "authors": [
         {
             "name": "Petr Čížek",
@@ -39,8 +32,5 @@
         "psr-4": {
             "Admin\\AdminBundle\\": ""
         }
-    },
-    "config": {
-        "bin-dir": "bin"
     }
 }
